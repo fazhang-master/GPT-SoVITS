@@ -1,0 +1,8 @@
+maimai:
+  ref_audio_path: "data/WaiMai/WaiMai_103.wav"
+  prompt_text: "你知道吧？在下班的路上在拥挤的地铁里戴着耳机，脑海中回想着男人就是泪"
+  text: str = None,
+  text_lang: str = None,
+  prompt_lang: str = None,
+  t2s_weights_path: "GPT_weights/maimai-e21.ckpt"
+  vits_weights_path: "SoVITS_weights/maimai_e55_s1210.pth"
